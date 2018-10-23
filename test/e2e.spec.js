@@ -67,7 +67,7 @@ describe('express', function () {
       })
   );
 
-  it('should have "more information" button', () => 
+  it('should have "more information" button', () =>
     nightmare
       .goto(url)
       .type('#search-bar', 'Cheese')
